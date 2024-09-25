@@ -16,11 +16,9 @@ For now, revise the code and add your Hugging Face token in the code.
 ```python
 login("your_hf_token")
 ```
-
 Will be updated as environment variable format soon.
 
-Then
-
-```python
+Then execute `model_run.py`
+```zsh
 python3 model_run.py
 ```
