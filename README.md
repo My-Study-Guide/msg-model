@@ -5,7 +5,7 @@ fine-tuned Gemma 2
 
 ### Requirments
 
-```python
+```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
@@ -19,6 +19,6 @@ login("your_hf_token")
 Will be updated as environment variable format soon.
 
 Then execute `model_run.py`
-```zsh
+```bash
 python3 model_run.py
 ```
