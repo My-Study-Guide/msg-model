@@ -16,6 +16,7 @@ class MSG:
 
         self.summarizing_model_name = summarizing_model_name
         self.scoring_model_name = scoring_model_name
+        genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
         try:
             # Load model and tokenizer

@@ -1,24 +1,36 @@
 # msg-model
-fine-tuned Gemma 2
-
-
 
 ### Requirments
-
+`python >= 3.9`
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### Run
+### Environment Variable setting
 
 For now, revise the code and add your Hugging Face token in the code.
+
+`run.py`
 ```python
 login("your_hf_token")
 ```
 Will be updated as environment variable format soon.
 
-Then execute `model_run.py`
+
+**Google API Key**
+
+Window
 ```bash
-python3 model_run.py
+> setx GOOGLE_API_KEY "YOUR API KEY"
+```
+Linux(Ubuntu)
+```bash
+$ echo 'export GOOGLE_API_KEY='"YOUR API KEY"' >> ~/.bashrc
+```
+
+### Run
+Execute `run.py`
+```bash
+python3 run.py
 ```
