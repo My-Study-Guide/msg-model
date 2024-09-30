@@ -1,8 +1,10 @@
 from huggingface_hub import login
 from model import MSG
 import utils
+import os
 
-login("your_hf_token") # 환경변수
+hf_token = os.environ.get('HUGGING_FACE_HUB_TOKEN')
+login(hf_token) # 환경변수
 
 msg = MSG(
     summarizing_model_name = "google/gemma-2-2b-it",
