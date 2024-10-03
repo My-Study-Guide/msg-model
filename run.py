@@ -1,10 +1,16 @@
+from fastapi import FastAPI, Request
+from pydantic import BaseModel
 from huggingface_hub import login
 from model import MSG
 import utils
 import os
 
 hf_token = os.environ.get('HUGGING_FACE_HUB_TOKEN')
-login(hf_token) # 환경변수
+if hf_token is None:
+    raise ValueError("Cannot find HUGGING_FACE_HUB_TOKEN")
+
+# Hugging Face login
+login(hf_token)
 
 msg = MSG(
     summarizing_model_name = "google/gemma-2-2b-it",
@@ -12,7 +18,21 @@ msg = MSG(
     device = "cpu", # depends
 )
 
-text_input = utils.read_txt('sample_text.txt')
-topics = ''
-msg.summarize(text_input)
-score, reason = msg.scoring(topics)
+app = FastAPI()
+class TextInput(BaseModel):
+    text: str
+    topics: str = ''
+
+@app.post('/process')
+async def process_text(input_data: TextInput):
+    text_input = input_data.text
+    topics = input_data.topics
+
+    msg.summarize(text_input)
+    msg.scoring(topics)
+
+    return {
+        'score': msg.score,
+        'reason': msg.reason,
+        'summary': msg.summary
+    }

@@ -16,81 +16,112 @@ class MSG:
 
         self.summarizing_model_name = summarizing_model_name
         self.scoring_model_name = scoring_model_name
-        genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
-        try:
-            # Load model and tokenizer
-            logger.info(f"Loading model and tokenizer for {self.summarizing_model_name}, on {device}")
-            self.tokenizer = AutoTokenizer.from_pretrained(self.summarizing_model_name)
-            logger.debug(f"Tokenizer loaded: {self.tokenizer.__class__.__name__}")
+        if self.summarizing_model_name.startswith('gemma'):
+            try:
+                # Load model and tokenizer
+                logger.info(f"Loading model and tokenizer for {self.summarizing_model_name}, on {device}")
+                self.tokenizer = AutoTokenizer.from_pretrained(self.summarizing_model_name)
+                logger.debug(f"Tokenizer loaded: {self.tokenizer.__class__.__name__}")
 
-            self.model = AutoModelForCausalLM.from_pretrained(self.summarizing_model_name).to(device)
-            logger.debug(f"Model loaded: {self.model.__class__.__name__}")            
+                self.model = AutoModelForCausalLM.from_pretrained(self.summarizing_model_name).to(device)
+                logger.debug(f"Model loaded: {self.model.__class__.__name__}")     
+            except Exception as e:
+                logger.exception(f"An error occurred: {str(e)}")
 
-        except Exception as e:
-            logger.exception(f"An error occurred: {str(e)}")
+            finally:
+                total_time = time.time() - start_time
+                logger.info(f"ModelHandler initialized in {total_time:.2f} seconds")   
 
-        finally:
-            total_time = time.time() - start_time
-            logger.info(f"ModelHandler initialized in {total_time:.2f} seconds")
-    
+        elif self.summarizing_model_name.startswith('gemini'):
+            try:
+                logger.info(f"Authorizing API for {self.summarizing_model_name}")   
+                genai.configure(api_key=os.getenv("GOOGLE_API_KEY")) 
+
+            except Exception as e:
+                logger.exception(f"An error occurred: {str(e)}")
+
+            finally:
+                total_time = time.time() - start_time
+                logger.info(f"Gemini API initialized in {total_time:.2f} seconds") 
+
     def summarize(self, text_input):
         logger.info("Starting summarizing function")
         start_time = time.time()
 
-        try:            
-            # Prepare chat and prompt
-            logger.debug("Preparing chat and prompt")
-            chat = [
-                { "role": "user", "content": f"Please summarize the following html source in three lines or less.:{text_input}" },
-            ]
-            prompt = self.tokenizer.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
-            logger.debug(f"Prompt created.")
+        if self.summarizing_model_name.startswith('gemma'):
+            try:            
+                # Prepare chat and prompt
+                logger.debug("Preparing chat and prompt")
+                chat = [
+                    { "role": "user", "content": f"Please summarize the following html source in three lines or less.:{text_input}" },
+                ]
+                prompt = self.tokenizer.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
+                logger.debug(f"Prompt created.")
 
-            # Tokenize input
-            logger.debug("Tokenizing input")
-            input_ids = self.tokenizer(prompt, return_tensors="pt")
-            logger.debug(f"Input tokenized. Shape: {input_ids.input_ids.shape}")
+                # Tokenize input
+                logger.debug("Tokenizing input")
+                input_ids = self.tokenizer(prompt, return_tensors="pt")
+                logger.debug(f"Input tokenized. Shape: {input_ids.input_ids.shape}")
 
-            # Generate output
-            logger.info("Generating summary")
-            generation_start_time = time.time()
-            outputs = self.model.generate(
-                **input_ids,
-                max_length=2000,
-                do_sample=True,
-                top_p=0.95,
-                temperature=0.7,
-                repetition_penalty=1.1,
-            )
-            generation_time = time.time() - generation_start_time
-            logger.info(f"Summary generated in {generation_time:.2f} seconds")
+                # Generate output
+                logger.info("Generating summary")
+                generation_start_time = time.time()
+                outputs = self.model.generate(
+                    **input_ids,
+                    max_length=2000,
+                    do_sample=True,
+                    top_p=0.95,
+                    temperature=0.7,
+                    repetition_penalty=1.1,
+                )
+                generation_time = time.time() - generation_start_time
+                logger.info(f"Summary generated in {generation_time:.2f} seconds")
 
-            # Decode output
-            logger.debug("Decoding output")
-            raw_summary = self.tokenizer.decode(outputs[0])
-            logger.debug(f"Raw summary length: {len(raw_summary)} characters")
+                # Decode output
+                logger.debug("Decoding output")
+                raw_summary = self.tokenizer.decode(outputs[0])
+                logger.debug(f"Raw summary length: {len(raw_summary)} characters")
 
-            # Extract summary using regex
-            logger.debug("Extracting summary")
-            pattern = r'<start_of_turn>model\s*(.*?)\s*<end_of_turn>'
+                # Extract summary using regex
+                logger.debug("Extracting summary")
+                pattern = r'<start_of_turn>model\s*(.*?)\s*<end_of_turn>'
 
-            match = re.search(pattern, raw_summary, re.DOTALL)
+                match = re.search(pattern, raw_summary, re.DOTALL)
 
-            if match:
-                self.summary = match.group(1).strip()
+                if match:
+                    self.summary = match.group(1).strip()
+                    logger.info("Summary successfully extracted")
+                    logger.info(f"Summary:\n{self.summary}")
+                else:
+                    logger.error("Failed to extract summary from model output")
+                    print("Error!")
+            except Exception as e:
+                logger.exception(f"An error occurred: {str(e)}")
+
+            finally:
+                total_time = time.time() - start_time
+                logger.info(f"Summary function completed in {total_time:.2f} seconds")
+
+            return self.summary
+
+        elif self.summarizing_model_name.startswith('gemini'):
+            try:
+                self.summarizing_model = genai.GenerativeModel(self.summaring_model) 
+                prompt = f"Please summarize the following html source in three lines or less.: {text_input}"
+
+                response = self.summarizing_model.generate_content(prompt)
+                self.summary = response.text
                 logger.info("Summary successfully extracted")
-                logger.info(f"Summary:\n{self.summary}")
-            else:
-                logger.error("Failed to extract summary from model output")
-                print("Error!")
 
-        except Exception as e:
-            logger.exception(f"An error occurred: {str(e)}")
+            except Exception as e:
+                logger.exception(f"An error occurred: {str(e)}")
 
-        finally:
-            total_time = time.time() - start_time
-            logger.info(f"Summary function completed in {total_time:.2f} seconds")
+            finally:
+                total_time = time.time() - start_time
+                logger.info(f"Summary function completed in {total_time:.2f} seconds")
+            
+            return self.summary
             
     def scoring(self, topics):
         logger.info("Start scoring function")

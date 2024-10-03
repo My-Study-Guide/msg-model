@@ -1,0 +1,995 @@
+
+
+
+
+Andrew Ng - Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to content
+
+
+
+
+
+
+
+Main menu
+
+
+
+
+
+Main menu
+move to sidebar
+hide
+
+
+
+		Navigation
+	
+
+
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact us
+
+
+
+
+
+		Contribute
+	
+
+
+HelpLearn to editCommunity portalRecent changesUpload file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Donate
+
+
+
+
+
+
+
+
+Appearance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Create account
+
+Log in
+
+
+
+
+
+
+
+
+Personal tools
+
+
+
+
+
+ Create account Log in
+
+
+
+
+
+		Pages for logged out editors learn more
+
+
+
+ContributionsTalk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contents
+move to sidebar
+hide
+
+
+
+
+(Top)
+
+
+
+
+
+1
+Biography
+
+
+
+
+
+
+
+
+2
+Career
+
+
+
+
+Toggle Career subsection
+
+
+
+
+
+2.1
+Academia and teaching
+
+
+
+
+
+
+
+
+2.2
+Industry
+
+
+
+
+
+
+
+
+
+
+3
+Research
+
+
+
+
+
+
+
+
+4
+Online education: massive open online course
+
+
+
+
+Toggle Online education: massive open online course subsection
+
+
+
+
+
+4.1
+Founding of Coursera
+
+
+
+
+
+
+
+
+4.2
+Post-Coursera work
+
+
+
+
+
+
+
+
+
+
+5
+Venture capital
+
+
+
+
+
+
+
+
+6
+Publications and awards
+
+
+
+
+
+
+
+
+7
+Books
+
+
+
+
+
+
+
+
+8
+Views on AI
+
+
+
+
+
+
+
+
+9
+See also
+
+
+
+
+
+
+
+
+10
+References
+
+
+
+
+
+
+
+
+11
+External links
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Toggle the table of contents
+
+
+
+
+
+
+
+Andrew Ng
+
+
+
+26 languages
+
+
+
+
+العربيةБългарскиCatalàDeutschEestiEspañolEsperantoEuskaraفارسیFrançais한국어Italianoעבריתമലയാളംمصرى日本語Oʻzbekcha / ўзбекчаPortuguêsРусскийСрпски / srpskiSvenskaไทยTürkçeУкраїнськаTiếng Việt中文
+
+Edit links
+
+
+
+
+
+
+
+
+
+
+
+ArticleTalk
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ReadEditView history
+
+
+
+
+
+
+
+Tools
+
+
+
+
+
+Tools
+move to sidebar
+hide
+
+
+
+		Actions
+	
+
+
+ReadEditView history
+
+
+
+
+
+		General
+	
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageGet shortened URLDownload QR codeWikidata item
+
+
+
+
+
+		Print/export
+	
+
+
+Download as PDFPrintable version
+
+
+
+
+
+		In other projects
+	
+
+
+Wikimedia Commons
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appearance
+move to sidebar
+hide
+
+
+
+
+
+
+
+
+
+
+From Wikipedia, the free encyclopedia
+
+
+American artificial intelligence researcher
+For the physicist, see Andrew Ng (physicist).
+
+
+Andrew NgNg in 2017BornAndrew Yan-Tak Ng (1976-04-18) April 18, 1976 (age 48)[citation needed]United KingdomNationalityBritishEducationRaffles InstitutionAlma materUniversity of California, Berkeley (PhD)Massachusetts Institute of Technology (MS)Carnegie Mellon University (BS)Known forArtificial intelligence, deep learning, MOOC, education technologySpouse
+Carol E. Reiley ​(m. 2014)​Children2MotherTisa HoAwards
+2007 Sloan Fellowship
+2008 MIT Technology Review TR35
+2009 IJCAI Computers and Thought Award
+2013 Time 100 Most Influential People
+2013 Fortune's 40 under 40
+2013 CNN 10
+2014 Fast Company's Most Creative People in Business
+2015 World Economic Forum Young Global Leaders
+2023 Time 100 Most Influential People in AI[1]
+Scientific careerFieldsArtificial intelligence, machine learning, natural language processing, computer visionInstitutionsStanford UniversityGoogle BrainCoursera cofounderBaidu ResearchThesisShaping and Policy Search in Reinforcement Learning (2003)Doctoral advisorMichael I. JordanNotable studentsIan GoodfellowDavid StavensPieter AbbeelQuoc Viet LeAshutosh Saxena
+Websitewww.andrewng.org
+Andrew NgTraditional Chinese吳恩達Simplified Chinese吴恩达TranscriptionsStandard MandarinHanyu PinyinWú ĒndáYue: CantoneseJyutpingng4 jan1 daat6
+
+Andrew Yan-Tak Ng (Chinese: 吳恩達; born 1976) is a British-American computer scientist and technology entrepreneur focusing on machine learning and artificial intelligence (AI).[2] Ng was a cofounder and head of Google Brain and was the former Chief Scientist at Baidu, building the company's Artificial Intelligence Group into a team of several thousand people.[3]
+Ng is an adjunct professor at Stanford University (formerly associate professor and Director of its Stanford AI Lab or SAIL). Ng has also worked in the field of online education, cofounding Coursera and DeepLearning.AI.[4] He has spearheaded many efforts to "democratize deep learning" teaching over 8 million students through his online courses.[5][2][6] Ng is renowned globally in computer science, recognized in Time magazine's 100 Most Influential People in 2012 and Fast Company's Most Creative People in 2014. His influence extends to being named in the Time100 AI Most Influential People in 2023.[6]
+In 2018, he launched and currently heads the AI Fund, initially a $175-million investment fund for backing artificial intelligence startups. He has founded Landing AI, which provides AI-powered SaaS products.[7]
+On April 11, 2024, Amazon announced the appointment of Ng to its board of directors.[8]
+
+
+Biography[edit]
+Ng was born in the United Kingdom,[9] in 1976 to Ronald Paul Ng, a hematologist and Tisa Ho, an arts administrator,[10][11][12] who were both immigrants from Hong Kong. He has at least one brother.[11] In his youth, Ng lived in Hong Kong and Singapore.[9] Ng attended and graduated from Raffles Institution.[13]
+In 1997, he earned his undergraduate degree with a triple major in computer science, statistics, and economics from Carnegie Mellon University in Pittsburgh, Pennsylvania. Between 1996 and 1998 he also conducted research on reinforcement learning, model selection, and feature selection at the AT&T Bell Labs.[14]
+In 1998, Ng earned his master's degree in Electrical Engineering and Computer Science from the Massachusetts Institute of Technology (MIT) in Cambridge, Massachusetts. At MIT, he built the first publicly available, automatically indexed web-search engine for research papers on the web. It was a precursor to CiteSeerX/ResearchIndex, but specialized in machine learning.[14]
+In 2002, he received his Doctor of Philosophy (Ph.D.) in Computer Science from the University of California, Berkeley, under the supervision of Michael I. Jordan. His thesis is titled "Shaping and policy search in reinforcement learning" and is well-cited to this day.[14][15]
+He started working as an assistant professor at Stanford University in 2002 and as an associate professor in 2009.[16]
+He currently lives in Los Altos Hills, California. In 2014, he married Carol E. Reiley.[17] They have two children: a daughter born in 2019[18] and a son born in 2021.[19] The MIT Technology Review named Ng and Reiley an "AI power couple".[20][21]
+
+Career[edit]
+Academia and teaching[edit]
+Ng is a professor at Stanford University departments of Computer Science and electrical engineering. He served as the director of the Stanford Artificial Intelligence Laboratory (SAIL), where he taught students and undertook research related to data mining, big data, and machine learning. His machine learning course CS229 at Stanford is the most popular course offered on campus with over 1,000 students enrolling some years.[22][23] As of 2020, three of most popular courses on Coursera are Ng's: Machine Learning (#1), AI for Everyone (#5), Neural Networks and Deep Learning (#6).[24]
+In 2008, his group at Stanford was one of the first in the US to start advocating the use of GPUs in deep learning.[citation needed] The rationale was that an efficient computation infrastructure could speed up statistical model training by orders of magnitude, ameliorating some of the scaling issues associated with big data. At the time it was a controversial and risky decision, but since then and following Ng's lead, GPUs have become a cornerstone in the field. Since 2017, Ng has been advocating the shift to high-performance computing (HPC) for scaling up deep learning and accelerating progress in the field.[citation needed]
+In 2012, along with Stanford computer scientist Daphne Koller he cofounded and was CEO of Coursera, a website that offers free online courses to everyone.[2][failed verification] It took off with over 100,000 students registered for Ng's popular CS229A course.[25] Today, several million people have enrolled in Coursera courses, making the site one of the leading massive open online courses (MOOCs) in the world.
+
+Industry[edit]
+From 2011 to 2012, he worked at Google, where he founded and directed the Google Brain Deep Learning Project with Jeff Dean, Greg Corrado, and Rajat Monga.
+In 2014, he joined Baidu as chief scientist, and carried out research related to big data and AI.[26] There he set up several research teams for things like facial recognition and Melody, an AI chatbot for healthcare.[3] He also developed for the company the AI platform called DuerOS and other technologies that positioned Baidu ahead of Google in the discourse and development of AI.[27] In March 2017, he announced his resignation from Baidu.[2][28]
+He soon afterward launched Deeplearning.AI, an online series of deep learning courses (including the AI for Good Specialization).[29] Then Ng launched Landing AI, which provides AI-powered SaaS products.[30]
+In January 2018, Ng unveiled the AI Fund, raising $175 million to invest in new startups.[31] In November 2021, Landing AI secured a $57 million round of series A funding led by McRock Capital, to help manufacturers adopt computer vision.[32]
+
+Research[edit]
+Ng researches primarily in machine learning, deep learning, machine perception, computer vision, and natural language processing; and is one of the world's most famous and influential computer scientists.[33] He's frequently won best paper awards at academic conferences and has had a huge impact on the field of AI, computer vision, and robotics.[34][35]
+During graduate school, together with David M. Blei and Michael I. Jordan, Ng co-authored the influential paper that introduced latent Dirichlet allocation (LDA) for his thesis on reinforcement learning for drones.[36]
+His early work includes the Stanford Autonomous Helicopter project, which developed one of the most capable autonomous helicopters in the world.[37][38] He was the leading scientist and principal investigator on the STAIR (Stanford Artificial Intelligence Robot) project,[39] which resulted in Robot Operating System (ROS), a widely used open source software robotics platform. His vision to build an AI robot and put a robot in every home inspired Scott Hassan to back him and create Willow Garage.[40] He is also one of the founding team members for the Stanford WordNet project, which uses machine learning to expand the Princeton WordNet database created by Christiane Fellbaum.[14][41]
+In 2011, Ng founded the Google Brain project at Google, which developed large-scale artificial neural networks using Google's distributed computing infrastructure.[42] Among its notable results was a neural network trained using deep learning algorithms on 16,000 CPU cores, which learned to recognize cats after watching only YouTube videos, and without ever having been told what a "cat" is.[43][44] The project's technology is also currently used in the Android operating system's speech recognition system.[45]
+
+Online education: massive open online course[edit]
+External audio Interview with Coursera Co-Founder Andrew Ng, Degree of Freedom[46]In 2011, Stanford launched a total of three massive open online course (MOOCs) on machine learning (CS229a), databases, and AI, taught by Ng, Peter Norvig, Sebastian Thrun, and Jennifer Widom.[47][48] This has led to the modern MOOC movement. Ng taught machine learning and Widom taught databases. The course on AI taught by Thrun led to the genesis of Udacity.[47]
+The seeds of massive open online courses (MOOCs) go back a few years before the founding of Coursera in 2012. Two themes emphasized in the founding of modern MOOCs were scale and availability.[47]
+By 2023, Ng has notably expanded access to AI education, with an estimated 8 million individuals worldwide taking his courses via platforms like DeepLearning.AI and Coursera.[6]
+
+Founding of Coursera[edit]
+Ng started the Stanford Engineering Everywhere (SEE) program, which in 2008 published a number of Stanford courses online for free. Ng taught one of these courses, "Machine Learning", which includes his video lectures, along with the student materials used in the Stanford CS229 class. It offered a similar experience to MIT OpenCourseWare, except it aimed at providing a more "complete course" experience, equipped with lectures, course materials, problems and solutions, etc. The SEE videos were viewed by the millions and inspired Ng to develop and iterate new versions of online tech.[47]
+Within Stanford, they include Daphne Koller with her "blended learning experiences" and codesigning a peer-grading system, John Mitchell (Courseware, a Learning Management System), Dan Boneh (using machine learning to sync videos, later teaching cryptography on Coursera), Bernd Girod (ClassX), and others. Outside Stanford, Ng and Thrun credit Sal Khan of Khan Academy as a huge source of inspiration. Ng was also inspired by lynda.com and the design of the forums of Stack Overflow.[47]
+Widom, Ng, and others were ardent advocates of Khan-styled tablet recordings, and between 2009 and 2011, several hundred hours of lecture videos recorded by Stanford instructors were recorded and uploaded. Ng tested some of the original designs with a local high school to figure the best practices for recording lessons.[47]
+In October 2011, the "applied" version of the Stanford class (CS229a) was hosted on ml-class.org and launched, with over 100,000 students registered for its first edition. The course featured quizzes and graded programming assignments and became one of the first and most successful massive open online courses (MOOCs) created by a Stanford professor.[49]
+Two other courses on databases (db-class.org) and AI (ai-class.org) were launched. The ml-class and db-class ran on a platform developed by students, including Frank Chen, Jiquan Ngiam, Chuan-Yu Foo, and Yifan Mai. Word spread through social media and popular press. The three courses were 10 weeks long, and over 40,000 "Statements of Accomplishment" were awarded.[47]
+
+Ng tells the following story on the early days of Coursera:In 2011, I was working with four Stanford students. We were under tremendous pressure to build new features for the 100,000+ students that were already signed up. One of the students (Frank Chen) claims another one (Jiquan Ngiam) frequently stranded him in the Stanford building and refused to give him a ride back to his dorm until very late at night so he had no choice but to stick around and keep working. I neither confirm nor deny this story.[50] His work subsequently led to his founding of Coursera with Koller in 2012. As of 2019, the two most popular courses on the platform were taught and designed by Ng: "Machine Learning" (#1) and "Neural Networks and Deep Learning" (#2).
+Post-Coursera work[edit]
+In 2019, Ng launched a new course "AI for Everyone". This is a non-technical course designed to help people understand AI's impact on society and its benefits and costs for companies, as well as how they can navigate through this technological revolution.[51]
+
+Venture capital[edit]
+Ng is the chair of the board for Woebot Labs, a psychological clinic that uses data science to provide cognitive behavioral therapy. It provides a therapy chatbot to help treat depression, among other things.[52]
+He is also a member of the board of directors for drive.ai, which uses AI for self-driving cars and was acquired by Apple in 2019.[53][54]
+Through Landing AI, he also focuses on democratizing AI technology and lowering the barrier for entrance to businesses and developers.[7]
+
+Publications and awards[edit]
+Ng is also the author or co-author of over 300 publications in robotics, and related fields.[55] His work in computer vision and deep learning has been featured often in press releases and reviews.[56]
+
+1995. Bell Atlantic Network Services Scholarship[57]
+1995, 1996. Microsoft Technical Scholarship Award[57]
+1996. Andrew Carnegie Society Scholarship[57]
+1998–2000: Berkeley Fellowship[57]
+2001–2002: Microsoft Research Fellowship[57]
+2007. Alfred P. Sloan Research Fellowship Sloan Foundation Faculty Fellowship[58]
+2008. Massachusetts Institute of Technology (MIT) Technology Review, 35 Innovators Under 35 (TR35)[59][60]
+2009. IJCAI Computers and Thought Award (the highest award in AI given to a researcher under 35)[61]
+2009. Vance D. & Arlene C. Coffman Faculty Scholar Award
+2013. Time 100 Most Influential People[62]
+2013. Fortune's 40 under 40 [63]
+2013. CNN 10: Thinkers[64]
+2014. Fast Company's Most Creative People in Business[65]
+2015. World Economic Forum Young Global Leaders[66]
+2023. Time AI 100 Most Influential People[6]
+2024 Honorary Fellowship of the Royal Statistical Society.[67]
+
+He has corefereed hundreds of AI publications in journals like NeurIPS. He has also been the editor of the Journal of Artificial Intelligence Research (JAIR), Associate Editor for the IEEE Robotics and Automation Society Conference Editorial Board (ICRA), and much more.[14]
+He has given invited talks at NASA, Google, Microsoft, Lockheed Martin, the Max Planck Society, Stanford, Princeton, UPenn, Cornell, MIT, UC Berkeley, and dozens of other universities. Outside of the US, he has lectured in Spain, Germany, Israel, China, Korea, and Canada.[14]
+He has also written for Harvard Business Review, HuffPost, Slate, Apple News, and Quora Sessions' Twitter.[citation needed] He also writes a weekly digital newsletter called The Batch.
+
+Books[edit]
+He also wrote a book Machine Learning Yearning, a practical guide for those interested in machine learning, which he distributed for free.[68] In December 2018, he wrote a sequel called AI Transformation Playbook.[69]
+Ng contributed one chapter to Architects of Intelligence: The Truth About AI from the People Building it (2018) by the American futurist Martin Ford.
+
+Views on AI[edit]
+Ng thinks that the real threat is contemplating the future of work: "Rather than being distracted by evil killer robots, the challenge to labor caused by these machines is a conversation that academia and industry and government should have."[70] A particular goal of Ng's work is to "democratize" AI learning so that people can learn more about it and understand its benefits.[citation needed]
+In a December 2023 Financial Times interview, Ng highlighted concerns regarding the impact of potential regulations on open-source AI, emphasizing how reporting, licensing, and liability risks could unfairly burden smaller firms and stifle innovation. He argued that regulating basic technologies like open-source models could hinder progress without markedly enhancing safety. Ng advocated for carefully designed regulations to prevent obstacles to the development and distribution of beneficial AI technologies.[71]
+
+See also[edit]
+Robot Operating System
+Latent Dirichlet allocation
+Google Brain
+Coursera
+References[edit]
+
+
+^ "Andrew Ng". Time Magazine. September 7, 2023. Retrieved November 7, 2023.
+
+^ a b c d Terdiman, Daniel (March 22, 2017). "Baidu's head of artificial intelligence is stepping down". Fast Company. Retrieved April 17, 2019.
+
+^ a b Mozur, Paul (March 22, 2017). "A.I. Expert at Baidu, Andrew Ng, Resigns From Chinese Search Giant". The New York Times. ISSN 0362-4331. Retrieved April 17, 2019.
+
+^ "Andrew Ng – Stanford University". Coursera. Retrieved August 29, 2017.
+
+^ Andrew Ng at Amazon re: MARS 2019, September 9, 2019, archived from the original on December 20, 2021, retrieved November 20, 2019
+
+^ a b c d  "The 2023 Time AI 100". Time. September 7, 2023. ISSN 0040-781X. Retrieved September 8, 2023.
+
+^ a b "Home". Landing AI. Retrieved April 17, 2019.
+
+^ "Amazon adds AI expert Andrew Ng to board as GenAI race heats up". Reuters. April 11, 2024.
+
+^ a b Seligman, Katherine (December 3, 2006). "If Andrew Ng could just get his robot to assemble an Ikea bookshelf, we'd all buy one". SFGate. Retrieved February 12, 2013.
+
+^ Ng, Terry (September 26, 2020). "After His Son Co-Founded Coursera, He Became Its Earliest Student and Completed 146 Courses". Rice Media.
+
+^ a b "Healer, teacher". The Straits Times. Archived from the original on November 10, 2023. Retrieved February 25, 2022.
+
+^ Miquiabas, Bong (July 2015). "A.I. and the New Era of Business" (PDF). The Peak Magazine Hong Kong: 40–45.
+
+^ "A Conversation with Professor Andrew Ng". 22 January 2014. Archived from the original on 27 July 2024. Retrieved 17 September 2024.
+
+^ a b c d e f Ng, Andrew. "Cirriculum Vitae: Andrew Y. Ng" (PDF).
+
+^ Ng, Andrew (2003). Shaping and policy search in Reinforcement Learning (PDF). Robotic AI & Learning Lab (RAIL) (Thesis). University of California, Berkeley.
+
+^ Ng, Andrew Y. (May 20, 2015). "Curriculum Vitæ: Andrew Y. Ng" (PDF). Stanford Artificial Intelligence Laboratory. Retrieved October 9, 2020.
+
+^ "Inside The Mind That Built Google Brain: On Life, Creativity, And Failure". The Huffington Post. May 13, 2015. Retrieved December 19, 2015.
+
+^ Ng, Andrew (February 20, 2019). "Announcing Nova Ng, our first daughter. Plus, some thoughts on the AI-powered world she will grow up in..." @AndrewYNg. Retrieved March 7, 2019.
+
+^ Ng, Andrew (August 25, 2021). "Dear friends". DeepLearning.ai: The Batch. No. 106.
+
+^ Technology Review, MIT [@techreview] (December 2, 2016). "Register today to hear power couple @AndrewYNg and @robot_MD speak at #EmTechDigital this March - http://trib.al/WHpHY91" (Tweet). Archived from the original on June 28, 2023. Retrieved June 28, 2023 – via Twitter.
+
+^ Ng, Andrew [@AndrewYNg] (December 2, 2016). "MIT Tech Review just called Carol @robot_MD and me a "power couple." :-)" (Tweet). Archived from the original on June 28, 2023. Retrieved June 28, 2023 – via Twitter.
+
+^ Kosner, Anthony Wing (December 29, 2013). "Why Is Machine Learning (CS 229) The Most Popular Course At Stanford?". Forbes.
+
+^ "CS229: Machine Learning". cs229.stanford.edu. Retrieved April 17, 2019.
+
+^ Mundial, Foro Económico (October 27, 2020). "Coursera's Most Popular Online Courses". Entrepreneur. Retrieved December 26, 2020.
+
+^ Friedman, Thomas L. (May 15, 2012). "Opinion: Come the Revolution". The New York Times. ISSN 0362-4331. Retrieved February 19, 2018.
+
+^ Gannes, Liz (May 16, 2014). "Baidu Hires Coursera Founder Andrew Ng to Start Massive Research Lab". Recode. Retrieved August 29, 2017.
+
+^ Webb, Amy (2019). The Big Nine: How the Tech Titans and Their Thinking Machines Could Warp Humanity. New York: PublicAffairs. ISBN 978-1-5417-7374-5.
+
+^ "Opening a new chapter of my work in AI". 2017. Retrieved May 16, 2014.
+
+^ Ng, Andrew (August 8, 2017). "deeplearning.ai: Announcing new Deep Learning courses on Coursera". Medium. Retrieved February 19, 2018.
+
+^ Lardinois, Frederic (August 21, 2019). "Andrew Ng's AI companies expand to Medellin, Colombia". TechCrunch. Retrieved June 2, 2023.
+
+^ Frank, Blair Hanley (January 30, 2018). "Andrew Ng unveils the AI Fund, with $175 million to back new startups". VentureBeat. Retrieved February 19, 2018.
+
+^ "MLOps platform Landing AI raises $57M to help manufacturers adopt computer vision". VentureBeat. November 8, 2021. Retrieved November 9, 2021.
+
+^ "One of the world's most famous computer scientists reveals his 'playbook' for bringing AI to every business". Business Insider. 2018.
+
+^ "Andrew Ng – Publications". www.robotics.stanford.edu. Retrieved December 26, 2020.
+
+^ "publications". ai.stanford.edu. Retrieved December 26, 2020.
+
+^ David M. Blei, Andrew Y. Ng, Michael I. Jordan. Latent Dirichlet allocation. The Journal of Machine Learning Research, Volume 3, January 3, 2003, which is one of the two papers that independently discovered Latent Dirichlet allocation
+
+^ "From Self-Flying Helicopters to Classrooms of the Future". Chronicle of Higher Education. 2012.
+
+^ "Stanford Autonomous Helicopter Project".
+
+^ Markoff, John (July 18, 2006). "Brainy Robots Start Stepping Into Daily Life". The New York Times.
+
+^ Markoff, John (2015). Machines of Loving Grace: The Quest for Common Ground between humans and robots. New York: HarperCollins. ISBN 978-0-06-226668-2.
+
+^ "The Stanford Wordnet Project". ai.stanford.edu. Retrieved April 17, 2019.
+
+^ Miller, Claire; Bilton, Nick (November 3, 2011). "Google's Lab of Wildest Dreams". The New York Times.
+
+^ Markoff, John (June 25, 2012). "How Many Computers to Identify a Cat? 16,000". The New York Times.
+
+^ Ng, Andrew; Dean, Jeff (2012). "Building High-level Features Using Large Scale Unsupervised Learning". arXiv:1112.6209 [cs.LG].
+
+^ "Speech Recognition and Deep Learning". Google Research Blog. August 6, 2012. Retrieved January 29, 2013.
+
+^ "Interview with Coursera Co-Founder Andrew Ng". Degree of Freedom. May 17, 2013. Retrieved May 19, 2013.
+
+^ a b c d e f g Ng, Andrew; Widom, Jennifer. "Origins of the Modern MOOC". Archived from the original on June 2, 2017. Retrieved April 17, 2019.
+
+^ Ng, Andrew; Widom, Jennifer. "Origins of the Modern MOOC (xMOOC)" (PDF).
+
+^ Johnson, Theresa (September–October 2012). "Stanford for All". Stanford Magazine.
+
+^ "What are some good stories from the early days of Coursera? – Quora". quora.com. Retrieved April 17, 2019.
+
+^ Ng, Andrew (November 14, 2018). "Announcing "AI for Everyone": a new course from deeplearning.ai". Medium. Retrieved December 14, 2018.
+
+^ "Woebot – Your charming robot friend who is here for you, 24/7". woebot.io. Retrieved April 17, 2019.
+
+^ "Andrew Ng LinkedIn page".
+
+^ "The self-driving car is here". drive.ai. Archived from the original on April 17, 2019. Retrieved April 17, 2019.
+
+^ "Andrew Ng – Google Scholar Citations". scholar.google.com. Retrieved December 14, 2018.
+
+^ New algorithm improves robot vision
+
+^ a b c d e "Andrew Ng's CV" (PDF).
+
+^ "SCS Alumni Awards". School of Computer Science. Pittsburgh, Pennsylvania: Carnegie Mellon University. 2009. Retrieved January 23, 2023.
+
+^ "Innovators Under 35 2008". Technology Review. Massachusetts Institute of Technology. 2008. Retrieved August 15, 2011.
+
+^ "Technology Review: TR35". Archived from the original on October 18, 2012. Retrieved December 2, 2009.
+
+^ "IJCAI Awards". IJCAI.org. 2009. Retrieved December 26, 2020.
+
+^ at the age of 37 Emanuel, Ezekiel. "The 2013 Time 100". Time. ISSN 0040-781X. Retrieved February 19, 2018.
+
+^ "Fortune's 40 under 40 – The hottest young stars in business". Fortune. Retrieved February 19, 2018.
+
+^ "The CNN 10: Thinkers". CNN. Retrieved December 26, 2020.
+
+^ Staff, Fast Company (January 29, 2014). "Most Creative People In Business 1000: The Complete List". Fast Company. Retrieved December 26, 2020.
+
+^ "Convening Innovators from the Science and Technology Communities" (PDF). World Economic Forum. September 2014.
+
+^ "Honorary Fellowship". Royal Statistical Society.
+
+^ "Machine Learning Yearning Book". 2024.
+
+^ "AI Transformation Playbook How to lead your company into the AI era". Landing AI. December 13, 2018. Retrieved December 14, 2018.
+
+^ Thieme, Nick (August 1, 2017). "Zuckerberg and Musk are arguing about the dangers of AI – they're both wrong". The Straits Times. Retrieved December 26, 2020.
+
+^ McMorrow, Ryan (December 19, 2023). "Andrew Ng: 'Do we think the world is better off with more or less intelligence?'". Financial Times. Retrieved February 25, 2024.
+
+
+External links[edit]
+
+
+
+Wikimedia Commons has media related to Andrew Ng.
+
+Official website
+Ng's Quora profile
+Ng's Medium blog
+Academic Genealogy
+Andrew Ng's Publication List
+vteDifferentiable computingGeneral
+Differentiable programming
+Information geometry
+Statistical manifold
+Automatic differentiation
+Neuromorphic engineering
+Pattern recognition
+Tensor calculus
+Computational learning theory
+Inductive bias
+Concepts
+Gradient descent
+SGD
+Clustering
+Regression
+Overfitting
+Hallucination
+Adversary
+Attention
+Convolution
+Loss functions
+Backpropagation
+Batchnorm
+Activation
+Softmax
+Sigmoid
+Rectifier
+Regularization
+Datasets
+Augmentation
+Diffusion
+Autoregression
+Applications
+Machine learning
+In-context learning
+Artificial neural network
+Deep learning
+Scientific computing
+Artificial Intelligence
+Language model
+Large language model
+Hardware
+IPU
+TPU
+VPU
+Memristor
+SpiNNaker
+Software libraries
+TensorFlow
+PyTorch
+Keras
+Theano
+JAX
+Flux.jl
+MindSpore
+ImplementationsAudio–visual
+AlexNet
+WaveNet
+Human image synthesis
+HWR
+OCR
+Speech synthesis
+Speech recognition
+Facial recognition
+AlphaFold
+Text-to-image models
+DALL-E
+Midjourney
+Stable Diffusion
+Text-to-video models
+Sora
+VideoPoet
+Whisper
+Text
+Word2vec
+Seq2seq
+BERT
+Claude
+Gemini
+LaMDA
+Bard
+NMT
+Project Debater
+IBM Watson
+IBM Watsonx
+Granite
+GPT-1
+GPT-2
+GPT-3
+GPT-4
+ChatGPT
+GPT-J
+Chinchilla AI
+PaLM
+BLOOM
+LLaMA
+PanGu-Σ
+Decisional
+AlphaGo
+AlphaZero
+Q-learning
+SARSA
+OpenAI Five
+Self-driving car
+MuZero
+Action selection
+Auto-GPT
+Robot control
+People
+Yoshua Bengio
+Alex Graves
+Ian Goodfellow
+Stephen Grossberg
+Demis Hassabis
+Geoffrey Hinton
+Yann LeCun
+Fei-Fei Li
+Andrew Ng
+Jürgen Schmidhuber
+David Silver
+Ilya Sutskever
+Organizations
+Anthropic
+EleutherAI
+Google DeepMind
+Hugging Face
+OpenAI
+Meta AI
+Mila
+MIT CSAIL
+Huawei
+Architectures
+Neural Turing machine
+Differentiable neural computer
+Transformer
+Recurrent neural network (RNN)
+Long short-term memory (LSTM)
+Gated recurrent unit (GRU)
+Echo state network
+Multilayer perceptron (MLP)
+Convolutional neural network
+Residual neural network
+Mamba
+Autoencoder
+Variational autoencoder (VAE)
+Generative adversarial network (GAN)
+Graph neural network
+
+ Portals
+Computer programming
+Technology
+ Categories
+Artificial neural networks
+Machine learning
+
+Authority control databases InternationalISNIVIAFNationalUnited StatesAcademicsMathematics Genealogy ProjectzbMATHGoogle ScholarDBLPMathSciNetOtherIdRef
+
+
+
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Andrew_Ng&oldid=1248717191"
+Categories: 1976 birthsLiving peopleAmerican computer businesspeopleAmerican computer scientistsAmerican education businesspeopleAmerican people of Hong Kong descentAmerican roboticistsAmerican people of Chinese descentAmerican technology chief executivesAmerican technology company foundersAmerican technology writersAmerican venture capitalistsAmerican artificial intelligence researchersBritish computer scientistsBritish people of Hong Kong descentBritish roboticistsBritish people of Chinese descentBritish technology chief executivesBritish technology company foundersBritish technology writersBritish venture capitalistsBritish artificial intelligence researchersBritish emigrants to the United StatesBusinesspeople from CaliforniaCarnegie Mellon University alumniComputer vision researchersEnglish businesspeopleEnglish scientistsEnglish writersMachine learning researchersMassachusetts Institute of Technology alumniPeople from Los Altos, CaliforniaRaffles Junior College alumniScientists from CaliforniaStanford University Department of Computer Science facultyStanford University School of Engineering facultyUC Berkeley College of Engineering alumniWriters from CaliforniaNatural language processing researchersBaidu peopleGoogle employeesHidden categories: Articles with short descriptionShort description matches WikidataUse mdy dates from April 2019All articles with unsourced statementsArticles with unsourced statements from July 2021Articles with hCardsArticles containing Chinese-language textArticles containing traditional Chinese-language textArticles with unsourced statements from September 2023Articles with unsourced statements from March 2024All articles with failed verificationArticles with failed verification from May 2020Articles with unsourced statements from February 2024Commons category link from WikidataOfficial website different in Wikidata and Wikipedia
+
+
+
+
+
+
+ This page was last edited on 1 October 2024, at 02:24 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 4.0;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Code of Conduct
+Developers
+Statistics
+Cookie statement
+Mobile view
+
+
+
+
+
+
+
+
+
+
+
+
+
+
