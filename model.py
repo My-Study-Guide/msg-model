@@ -91,6 +91,8 @@ class MSG:
         finally:
             total_time = time.time() - start_time
             logger.info(f"Summary function completed in {total_time:.2f} seconds")
+        
+        return self.summary
             
     def scoring(self, topics):
         logger.info("Start scoring function")
