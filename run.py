@@ -7,7 +7,7 @@ import os
 
 hf_token = os.environ.get('HUGGING_FACE_HUB_TOKEN')
 if hf_token is None:
-    raise ValueError("HUGGING_FACE_HUB_TOKEN 환경변수가 설정되지 않았습니다.")
+    raise ValueError("Cannot find HUGGING_FACE_HUB_TOKEN")
 
 # Hugging Face login
 login(hf_token)
@@ -29,12 +29,10 @@ async def process_text(input_data: TextInput):
     topics = input_data.topics
 
     msg.summarize(text_input)
-
-    score, reason = msg.scoring(topics)
+    msg.scoring(topics)
 
     return {
         'score': msg.score,
         'reason': msg.reason,
         'summary': msg.summary
     }
-

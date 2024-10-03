@@ -1,0 +1,384 @@
+content.js:5 본문 바로가기
+블로그
+카테고리 이동	
+Song 전자공학
+검색 MY메뉴 열기
+전자기학
+
+벡터 자기장 포텐셜과 자기선속(Vector Magnetic Potential and Magnetic Flux) 
+
+Song 전자공학
+
+2023. 1. 9. 14:00
+
+ 이웃추가
+본문 기타 기능
+
+앞서 Magnetic Flux Density B의 발산이 0, ∇ · B = 0 임을 보았습니다.
+
+​
+
+∇ · B = 0 라는 것은 곧 B가 solenoidal이라는 것이고, 이는 B가 회전성을 가진다는 것을 의미합니다. 
+
+따라서 B는 다른 임의의 vector의 curl(회전)으로 정의할 수 있습니다.
+
+새로 정의한 vector field A를 벡터 자기장 포텐셜(Vector magnetic potential)라 하며, 단위는 [Wb/m]입니다.
+
+이런 것을 왜 정의하지? 라는 질문에 대한 이유는 B를 쉽게 구하기 위함입니다.
+
+​
+
+앞서 우리는 E를 직접 구하는 것이 아니라 V를 구한 이후 V와 E의 관계를 통해 E를 구하면 더 쉽게 구할 수 있는 방법에 대해 배운 적이 있습니다. 자기장에서 더 쉽게 B를 구하기 위한 것을 정의한 것이 벡터 자기장 포텐셜입니다.
+
+​
+
+V는 전위로 전기 퍼텐셜(electric potential) 이라고도 부릅니다. 이름부터 유사한 것을 확인할 수 있죠.
+
+​
+
+우리가 V를 구하면 E = -∇V 라는 그레디언트 연산을 통해 E를 구해냈듯 어떠한 전류 분포에 대한 A를 구할 수 있다면, 그것의 curl 로써 B = ∇×A 로 B를 구해낼 수 있습니다.
+
+​
+
+​
+
+​
+
+​
+
+​
+
+위 과정에 대해 조금 더 자세한 유도는 Null identity 에서 시작됩니다.
+
+Null identity (영 항등식)
+
+우리가 앞서 del 연산자, 나블라라고도 불리는 ∇ 이런 연산자를 배웠습니다. 이 연산자를 통해 gradient, ...
+
+blog.naver.com
+
+​
+
+위 포스팅의 결론입니다. 애초에 배울 때부터 A를 사용했었네요.
+
+​
+
+"만약 벡터계가 무회전이라면, 그 벡터는 스칼라계의 기울기로 표현할 수 있다."
+
+"If a vecor field is curl-free, then is can be expressed as the gradient of a scalar field."
+
+​
+
+임의의 벡터에 curl 연산을 했는데 0이 나왔다. → 그 벡터는 보존적 벡터장이고 선적분을 어떻게 해도 경로에 독립적이다. → 보존적 벡터장은 임의의 스칼라 함수의 기울기로 나타낼 수 있다. 그 스칼라 함수를 잠재함수라고 정의한다.
+
+​
+
+그 당시 위와 같은 흐름으로 E = -∇V에 대해 유도했습니다. 자세한 내용은 위 포스팅에 나와있습니다.
+
+​
+
+​
+
+​
+
+마찬가지로 벡터 자기장 포텐셜 A는 NULL identity(II)에 의해 유도됩니다.
+
+​
+
+임의의 벡터계 회전의 발산은 0이다.
+
+"The divergence of the curl of any vector field is identically zero."
+
+​
+
+divergence B가 0이므로 curl로 나타낼 수 있다는 내용이죠. 맨 처음에 했던 내용을 쉽게 풀어낸 겁니다.
+
+​
+
+​
+
+맨 처음 정의한 B = ∇ × A 식 만으로는 A를 완벽하게 정의할 수 없습니다.
+
+​
+
+두번의 curl 연산은 grad(divA)-laplacianA 로 나타낼 수 있습니다.
+
+이에 대한 내용은 그냥 그렇다고 외워도 되고, 직접 계산을 해보셔도 되지만 위와 같은 식이 나오는 이유는 근본적으로 ∇를 이용한 연산은 벡터의 '미분'과 연관이 있기 때문입니다.
+
+​
+
+f(x)g(x)를 미분하면 f'(x)g'(x) 인가요? 아니죠. 곱의 미분법에 따라 f(x)g'(x)+f'(x)g(x) 처럼 식이 복잡해집니다.
+
+​
+
+곱의 미분법조차 정의대로 증명하면 꽤 복잡합니다. curl은 더 복잡하겠죠? 그러니 생략하도록 하겠습니다.
+
+​
+
+아무튼 curl 2번은 grad(div) - grad2 으로 외우시는게 가장 편합니다.
+
+​
+
+위 식을 간단하게 만들기 위해서 한 가지 '가정'을 합니다. 바로 div A가 0이라는 것으로 가정합니다.
+
+​
+
+이렇게 div A가 0이다 라고 가정하는 것을 Coulomb gauge(쿨롱 게이지)이라고 합니다.
+
+게이지 라는 것은 물리학의 한 부분으로 쉽게 생각해보면 "복잡한 거 한번에 보지 말고 따로따로 보자" 입니다.
+
+​
+
+특정한 제약을 걸고 그 상황에서 해석을 한 후에 그것을 결합하는 이론이라고 생각하시면 되는데요, 그 때 사용되는 조건을 게이지(gauge) 라고 합니다. 다음 학기에도 로렌츠 게이지 등등으로 나오는 용어입니다.
+
+​
+
+​
+
+게이지에 대한 내용은 학부 수준의 내용이 아니기 때문에  "복잡한 거 한번에 보지 말고 따로따로 보는 조건" 으로 생각하셔도 무방합니다. 대부분의 학부 과정 교재의 유도는 게이지에 대해 특별한 언급을 더 써놓지 않습니다.
+
+​
+
+아무튼 쿨롱 게이지를 적용하면 위 식을 단순화 시킬 수 있습니다.
+
+​
+
+​
+
+​
+
+ 우측의 2개의 식으로 단순화 할 수 있습니다.
+
+​
+
+앞부분을 탄탄하게 공부하신 분이거나 제 포스팅을 순서대로 보신 분이라면 뭔가 익숙할수도 있는데요,
+
+​
+
+우측의 식을 벡터 포아송 방정식(Vector Poisson Equation)이라고 부르기 때문입니다.
+
+​
+
+푸아송 방정식(Poisson’s Equation) - [ρ-E-V relation]
+
+오늘의 내용은 푸아송 방정식입니다. 전자기학 과목에서 상당히 어려운 부분에 속하죠. 하지만 이 내용은 ...
+
+blog.naver.com
+
+위 포스팅에서 알아본 것은 정전기장에서의 포아송 방정식입니다.
+
+벡터 포아송 방정식은 정전기장에서의 포아송 방정식과 수학적으로 같은 의미를 가집니다.
+
+​
+
+ 따라서 V를 정의할 때와 유사하게 A를 표현할 수 있습니다.
+
+​
+
+​
+
+이 과정 또한 다음 학기에나 제대로 배울텐데, 편미분 방정식을 풀어서 그 해를 찾는 과정인데 아직 배우지 않는 시점이기 때문에 결론적으로 유사한 해를 가진다. 라는 결론만 알고 넘어가시면 되겠습니다.
+
+​
+
+​
+
+​
+
+​
+
+그리고 중력에서의 중력 퍼텐셜은 단위 질량당 퍼텐셜 에너지, 전기장에서의 전기 퍼텐셜은 단위 전하당 퍼텐셜 에너지로 물리적 의미를 가졌습니다. 그럼 벡터 퍼텐셜은? 단위 전하당 에너지..? 등등으로 정의하기 애매합니다.
+
+​
+
+중력장과 전기장에서는 중력장과 전기장이 일을 하므로, 중력장과 전기장에 가만히 질량체나 전하를 두면 퍼텐셜 에너지가 낮아지는 방향으로 자연스럽게 이동합니다.
+
+​
+
+그런데 자기장은 일을 하지 않습니다. 따라서 위와 같은 물리적으로 해석할 수 없습니다.
+
+이에 대한 물리적 개념은 차후 양자역학이나 전자장에서나 제대로 다루게 됩니다.
+
+​
+
+​
+
+실제로 벡터 퍼텐셜은 입자에 어떤 영향을 미치는데 그것이 위상의 변화 라는 결론이 밝혀져 있습니다.
+
+​
+
+​
+
+결론적으로 오늘 포스팅에서 기억할 내용은 위 사진 한장입니다. 유도과정도 한 번만 해보고 까먹어도 됩니다.
+
+원래 문제풀이 까지 한 개의 포스팅으로 진행하려 했는데 흐름이 길어지는 것 같아서 다음 포스팅에 벡터 퍼텐셜 A를 이용해 B를 구하는 예제를 풀어보도록 하겠습니다.
+
+​
+
+​
+
+마지막으로 A는 경로 C에 둘러 쌓인 면적 S를 통과하는 Magnetic Flux(자속) φ와도 관계가 있는데
+
+​
+
+A를 임의의 폐경로를 따라 선적분한 것은 그 경로의 면적을 관통하는 총 자속과 같고 B에 그 면적을 면적분한 값 또한 그 면적을 통과하는 총 자속과 똑같다는 중요한 의미를 가집니다.
+
+​
+
+​
+
+틀린 점이나 궁금하신 점은 댓글로 남겨주세요. 감사합니다.
+
+​
+
+#벡터자기장포텐셜
+#vectormagneticpotential
+#magneticpotential
+#자기장포텐셜
+#벡터포텐셜
+#벡터포텐셜물리적의미
+#A벡터의미
+#A벡터유도
+#A벡터공식
+댓글 3
+공유하기
+이웃추가
+Song 전자공학 교육·학문 이웃1,530명
+
+Song 컴퓨터공학 songsite123.tistory.com/
+
+Song 전자공학(songsite123)
+	님을 이웃추가하고 새글을 받아보세요
+취소
+ 
+이웃추가
+content.js:6 <html lang="ko" data-useragent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"><head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
+
+
+
+
+
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+
+<meta name="robots" content="index,follow">
+
+
+
+<link rel="icon" type="image/png" href="/blog_192x192.png">
+
+<link rel="apple-touch-icon-precomposed" href="/blog_96x96.png">
+
+<link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/t.static.blog/nmobile/versioning/lego_w-208018696_https.css" charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/t.static.blog/nmobile/versioning/lego_view-105869195_https.css" charset="UTF-8">
+<style>
+	div.spi_unity {
+		width:291px;
+	}
+</style>
+
+
+
+
+
+ 
+
+	
+		<meta property="og:title" content="벡터 자기장 포텐셜과 자기선속(Vector Magnetic Potential and Magnetic Flux)">
+
+		
+			
+			
+			<meta property="og:image" content="https://blogthumb.pstatic.net/MjAyMzAxMDdfMTE3/MDAxNjczMDgyNTg2MTUw.0DByeycydKpxuUgf4AyMU3XRnGo8-5HEYqMunyyhP08g.qiJ7Cbu4Ptxn0iWoJIwAjwY4ouFCWHBZYyV2xTtdHM4g.JPEG.songsite123/IMG_3063.JPG?type=w2">
+			
+		
+        <meta property="og:description" content="앞서 Magnetic Flux Density B의 발산이 0, ∇ · B &amp;#x3D; 0 임을 보았습니다. ∇ · B &amp;#x3D; 0 라...">
+
+		
+			<meta property="og:url" content="https://blog.naver.com/songsite123/222978307128">
+		
+	
+	
+
+<meta property="me:feed:serviceId" content="blog">
+
+
+<link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/t.static.blog/nmobile/versioning//lib/prismplayer/prismplayer-mobile-se-1.0.4-f8780c7_https.css">
+
+<link rel="stylesheet" type="text/css" href="https://apollo-cdn.pstatic.net/influencer-sdk/influencer-sdk-0.2.0.css">
+<script async="" src="https://ntm.pstatic.net/ex/nlog.js"></script><script async="" src="https://ntm.pstatic.net/scripts/ntm_d26044233161.js"></script><script type="text/javascript" src="https://apollo-cdn.pstatic.net/influencer-sdk/influencer-sdk-0.2.0.cdn.js"></script>
+
+
+	
+
+
+
+    
+
+
+
+<meta name="referrer" content="always">
+<meta property="og:type" content="article">
+<meta property="og:article:author" content="Song 전자.. | 블로그">
+<meta class="_og_tag _author" property="og:site_name" content="네이버 블로그 | Song 전자공학">
+<meta property="naverblog:nickname" content="Song 전자공학">
+<meta property="naverblog:profile_image" content="https://blogpfthumb-phinf.pstatic.net/MjAyMjA4MTVfNTMg/MDAxNjYwNTI1MjEzMDg0.GmA9AAnJc2JYamqASVOcQLdsQxzRDAwW6VGK21F69xAg.uEeXI_yqSzh0xfcxuntmapfUMZXavOfH6hMSyByfB0gg.PNG.songsite123/profileImage.png?type=s1">
+
+<meta property="me:feed:serviceId" content="blog">
+<meta name="format-detection" content="telephone=no">
+
+
+<meta name="napp-site-analysis" content="gdid=90000003_0000000000000033EA8AF438,service=blog,collection=blog">
+
+
+
+	<link rel="stylesheet" type="text/css" href="https://ssl.pstatic.net/static/blog/se/css/se_viewer_blog_mobile_v1.43.1.css">
+
+
+    <link href="https://editor-static.pstatic.net/v/basic/1.58.4/css/se.viewer.css?v=1.58.4-20240912105622" rel="stylesheet">
+    <link rel="preload" href="https://editor-static.pstatic.net/c/resources/common/fonts/se-nanumgothic-regular.woff2" as="font" crossorigin="" type="font/woff2">
+
+    <link rel="stylesheet" href="/css/lego/photoviewer/image-viewer.css"> 
+    <title>벡터 자기장 포텐셜과 자기선속(Vector Magnetic Potential and Magnetic Flux) : 네이버 블로그</title>
+    <script type="text/javascript">
+        var gbTrackingCode = 'external';
+        var gbTrackingCodeReferer = 'https://www.google.com/';
+        var gbIsOnNotAdPostAd = false;
+    </script>
+</head>
+<body id="body" class="tablet_end">
+
+    
+    
+        
+    
+
+<div style="display:none">
+    <img src="https://ssl.pstatic.net/static/blog/sp_blog72.png" width="1" height="1">
+    
+        <img src="https://ssl.pstatic.net/static/blog/sp_blog_se3_6.png" width="1" height="1">
+    
+</div>
+<div class="_ngApp">
+  <bg-drawer-menu bg-drawer-pc-url="https://blog.naver.com/songsite123/222978307128?viewType=pc" bg-drawer-menu-btn="._openDrawer" bg-drawer-app-link-type="postViewDirect" bg-drawer-app-params-json="{&quot;logNo&quot;:222978307128,&quot;blogId&quot;:&quot;songsite123&quot;}"></bg-drawer-menu>
+</div>
+
+<div class="u_skip"><a href="#ct">본문 바로가기</a></div>
+<div class="Ngnb gnb_bg_white" style="will-change: contents;">
+	<div class="Ngnb_service logo_blog_green">
+		<h1 class="Nservice_item">
+			
+				
+					<a href="/FeedList.naver"><span class="Nicon_service">블로그</span></a>
+				
+				
+			
+		</h1>
+		<h2 class="gnb_title">
+            <div class="center">
+ 				<span class="td">
+ 					<a href="#" id="_categoryName" class="_cur_category _returnFalse" onclick="nclk_v2(this, 'pgn.blogname', '', '');">
+ 						<span class="sp ico">카테고리 이동</span>
+ 					</a>
+ 				</span>
+                <span class="td">
+ 					<a href="/PostList.naver?blogId=songsite123" on
